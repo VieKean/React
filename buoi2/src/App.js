@@ -17,7 +17,7 @@ const App = () => {
       <h1>Đây là Menu</h1>
       <Infomation userName={userName} />
       <Menu />
-      <Button label="Click Me, Bà ly" onClick={handleClick} style={{ backgroundColor: '#111', color: 'white', padding: '10px 20px' }} />
+      <Button label="Click Me" onClick={handleClick} style={{ backgroundColor: '#111', color: 'white', padding: '10px 20px' }} />
       <div>
         {isLogin ? <p>Welcome back!</p> : <p>Chưa đăng nhập</p>}
       </div>
